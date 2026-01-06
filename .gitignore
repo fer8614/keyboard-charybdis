@@ -1,0 +1,47 @@
+# Build directories
+build/
+dist/
+*.o
+*.a
+*.so
+
+# ZMK/Zephyr specific
+.west/
+zephyr/
+modules/
+.venv/
+venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+*.uf2.bak
+
+# OS specific
+Thumbs.db
+.Thumbs.db
+
+# Node modules (if using any JS tools)
+node_modules/
+package-lock.json
+
+# Firmware files (optional - uncomment if you want to ignore compiled firmware)
+# *.uf2

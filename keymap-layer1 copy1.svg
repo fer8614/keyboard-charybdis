@@ -1,0 +1,328 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 500">
+  <rect width="1100" height="500" fill="white"/>
+  <style>
+    .key { fill: #f5f5f5; stroke: #333; stroke-width: 2; rx: 8; }
+    .key-text { font-family: Arial, sans-serif; font-size: 12px; fill: #333; text-anchor: middle; }
+    .key-text-small { font-family: Arial, sans-serif; font-size: 9px; fill: #666; text-anchor: middle; }
+    .key-text-code { font-family: monospace; font-size: 8px; fill: #0066cc; text-anchor: middle; }
+    .title { font-family: Arial, sans-serif; font-size: 20px; fill: #333; font-weight: bold; }
+    .special { fill: #e3f2fd; }
+    .bluetooth { fill: #bbdefb; }
+    .arrow { fill: #c8e6c9; }
+    .none { fill: #eeeeee; }
+    .thumb { fill: #fff3e0; }
+    .important { fill: #ffcdd2; }
+  </style>
+  
+  <text x="550" y="30" class="title" text-anchor="middle">Layer 1 - Function/Bluetooth Layer</text>
+  
+  <!-- LEFT HALF - Row 1 (F1-F6) -->
+  <g transform="translate(50, 50)">
+    <rect class="key special" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">`</text>
+    <text class="key-text-small" x="27" y="38">GRAVE</text>
+    <text class="key-text-code" x="27" y="50">&amp;kp GRAVE</text>
+  </g>
+  <g transform="translate(110, 50)">
+    <rect class="key special" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">~</text>
+    <text class="key-text-small" x="27" y="38">TILDE</text>
+    <text class="key-text-code" x="27" y="50">&amp;kp TILDE</text>
+  </g>
+  <g transform="translate(170, 50)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">F3</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp F3</text>
+  </g>
+  <g transform="translate(230, 50)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">F4</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp F4</text>
+  </g>
+  <g transform="translate(290, 50)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">F5</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp F5</text>
+  </g>
+  <g transform="translate(350, 50)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">F6</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp F6</text>
+  </g>
+
+  <!-- RIGHT HALF - Row 1 (F7-F12) -->
+  <g transform="translate(630, 50)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">F7</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp F7</text>
+  </g>
+  <g transform="translate(690, 50)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">F8</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp F8</text>
+  </g>
+  <g transform="translate(750, 50)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">F9</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp F9</text>
+  </g>
+  <g transform="translate(810, 50)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">F10</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp F10</text>
+  </g>
+  <g transform="translate(870, 50)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">F11</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp F11</text>
+  </g>
+  <g transform="translate(930, 50)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">F12</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp F12</text>
+  </g>
+
+  <!-- LEFT HALF - Row 2 -->
+  <g transform="translate(50, 110)">
+    <rect class="key important" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="20">CAPS</text>
+    <text class="key-text-small" x="27" y="35">Lock</text>
+    <text class="key-text-code" x="27" y="48">&amp;kp CAPS</text>
+  </g>
+  <g transform="translate(110, 110)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(170, 110)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(230, 110)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(290, 110)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(350, 110)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+
+  <!-- RIGHT HALF - Row 2 -->
+  <g transform="translate(630, 110)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(690, 110)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(750, 110)">
+    <rect class="key arrow" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">↑</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp UP</text>
+  </g>
+  <g transform="translate(810, 110)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(870, 110)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(930, 110)">
+    <rect class="key special" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">+</text>
+    <text class="key-text-small" x="27" y="38">PLUS</text>
+    <text class="key-text-code" x="27" y="50">&amp;kp PLUS</text>
+  </g>
+
+  <!-- LEFT HALF - Row 3 -->
+  <g transform="translate(50, 170)">
+    <rect class="key special" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">SHIFT</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp LSHFT</text>
+  </g>
+  <g transform="translate(110, 170)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(170, 170)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(230, 170)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(290, 170)">
+    <rect class="key bluetooth" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="20">BT</text>
+    <text class="key-text-small" x="27" y="35">Next</text>
+    <text class="key-text-code" x="27" y="48">&amp;bt BT_NXT</text>
+  </g>
+  <g transform="translate(350, 170)">
+    <rect class="key bluetooth" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="20">BT</text>
+    <text class="key-text-small" x="27" y="35">Clear</text>
+    <text class="key-text-code" x="27" y="48">&amp;bt BT_CLR</text>
+  </g>
+
+  <!-- RIGHT HALF - Row 3 -->
+  <g transform="translate(630, 170)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(690, 170)">
+    <rect class="key arrow" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">←</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp LEFT</text>
+  </g>
+  <g transform="translate(750, 170)">
+    <rect class="key arrow" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">↓</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp DOWN</text>
+  </g>
+  <g transform="translate(810, 170)">
+    <rect class="key arrow" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">→</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp RIGHT</text>
+  </g>
+  <g transform="translate(870, 170)">
+    <rect class="key special" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">}</text>
+    <text class="key-text-small" x="27" y="38">RBRC</text>
+    <text class="key-text-code" x="27" y="50">&amp;kp RBRC</text>
+  </g>
+  <g transform="translate(930, 170)">
+    <rect class="key special" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">=</text>
+    <text class="key-text-small" x="27" y="38">EQUAL</text>
+    <text class="key-text-code" x="27" y="50">&amp;kp EQUAL</text>
+  </g>
+
+  <!-- LEFT HALF - Row 4 -->
+  <g transform="translate(50, 230)">
+    <rect class="key special" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">CTRL</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp LCTRL</text>
+  </g>
+  <g transform="translate(110, 230)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(170, 230)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(230, 230)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(290, 230)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(350, 230)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+
+  <!-- RIGHT HALF - Row 4 -->
+  <g transform="translate(630, 230)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(690, 230)">
+    <rect class="key special" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">.</text>
+    <text class="key-text-small" x="27" y="38">DOT</text>
+    <text class="key-text-code" x="27" y="50">&amp;kp DOT</text>
+  </g>
+  <g transform="translate(750, 230)">
+    <rect class="key special" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">&gt;</text>
+    <text class="key-text-small" x="27" y="38">GT</text>
+    <text class="key-text-code" x="27" y="50">&amp;kp GT</text>
+  </g>
+  <g transform="translate(810, 230)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">]</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp RBKT</text>
+  </g>
+  <g transform="translate(870, 230)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(930, 230)">
+    <rect class="key" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">=</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp EQUAL</text>
+  </g>
+
+  <!-- LEFT THUMB CLUSTER -->
+  <g transform="translate(230, 320)">
+    <rect class="key thumb" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">ALT</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp LALT</text>
+  </g>
+  <g transform="translate(290, 320)">
+    <rect class="key thumb" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">SPACE</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp SPC</text>
+  </g>
+  <g transform="translate(350, 320)">
+    <rect class="key" x="0" y="0" width="55" height="55" style="fill: #c8e6c9;"/>
+    <text class="key-text" x="27" y="20">TO(0)</text>
+    <text class="key-text-small" x="27" y="35">Layer 0</text>
+    <text class="key-text-code" x="27" y="48">&amp;to 0</text>
+  </g>
+  <g transform="translate(290, 380)">
+    <rect class="key thumb" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="20">MB1</text>
+    <text class="key-text-small" x="27" y="35">L-Click</text>
+    <text class="key-text-code" x="27" y="48">&amp;mkp MB1</text>
+  </g>
+  <g transform="translate(350, 380)">
+    <rect class="key thumb" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="20">MB2</text>
+    <text class="key-text-small" x="27" y="35">R-Click</text>
+    <text class="key-text-code" x="27" y="48">&amp;mkp MB2</text>
+  </g>
+
+  <!-- RIGHT THUMB CLUSTER -->
+  <g transform="translate(690, 320)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(750, 320)">
+    <rect class="key none" x="0" y="0" width="55" height="55"/>
+    <text class="key-text-small" x="27" y="30">(none)</text>
+  </g>
+  <g transform="translate(690, 380)">
+    <rect class="key thumb" x="0" y="0" width="55" height="55"/>
+    <text class="key-text" x="27" y="25">ENTER</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp RET</text>
+  </g>
+
+  <!-- Trackball -->
+  <circle cx="850" cy="400" r="25" fill="#e1bee7" stroke="#333" stroke-width="2"/>
+  <text class="key-text-small" x="850" y="405" text-anchor="middle">Trackball</text>
+
+  <!-- Legend -->
+  <g transform="translate(50, 460)">
+    <rect x="0" y="0" width="20" height="15" fill="#ffcdd2" stroke="#333"/>
+    <text class="key-text-small" x="25" y="12">Caps Lock</text>
+    
+    <rect x="100" y="0" width="20" height="15" fill="#bbdefb" stroke="#333"/>
+    <text class="key-text-small" x="125" y="12">Bluetooth</text>
+    
+    <rect x="200" y="0" width="20" height="15" fill="#c8e6c9" stroke="#333"/>
+    <text class="key-text-small" x="225" y="12">Arrows/Layer</text>
+    
+    <rect x="320" y="0" width="20" height="15" fill="#eeeeee" stroke="#333"/>
+    <text class="key-text-small" x="345" y="12">(none)</text>
+  </g>
+</svg>

@@ -323,13 +323,13 @@
   </g>
   <g transform="translate(750, 320)">
     <rect class="key thumb" x="0" y="0" width="55" height="55"/>
-    <text class="key-text" x="27" y="25">SPACE</text>
-    <text class="key-text-code" x="27" y="45">&amp;kp SPC</text>
+    <text class="key-text" x="27" y="25">ENTER</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp RET</text>
   </g>
   <g transform="translate(690, 380)">
     <rect class="key thumb" x="0" y="0" width="55" height="55"/>
-    <text class="key-text" x="27" y="25">ENTER</text>
-    <text class="key-text-code" x="27" y="45">&amp;kp RET</text>
+    <text class="key-text" x="27" y="25">SPACE</text>
+    <text class="key-text-code" x="27" y="45">&amp;kp SPC</text>
   </g>
 
   <!-- Trackball -->

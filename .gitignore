@@ -45,3 +45,6 @@ package-lock.json
 
 # Firmware files (optional - uncomment if you want to ignore compiled firmware)
 # *.uf2
+
+# Agent documentation
+AGENTS.md

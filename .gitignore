@@ -48,3 +48,7 @@ package-lock.json
 
 # Agent documentation
 AGENTS.md
+
+# Keymap layer copies
+keymap-layer0 copy.svg
+keymap-layer1 copy1.svg

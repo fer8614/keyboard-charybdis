@@ -43,8 +43,10 @@ Thumbs.db
 node_modules/
 package-lock.json
 
-# Firmware files (optional - uncomment if you want to ignore compiled firmware)
-# *.uf2
+# Firmware files (compiled binaries)
+*.uf2
+*.hex
+*.bin
 
 # Agent documentation
 AGENTS.md
@@ -52,3 +54,80 @@ AGENTS.md
 # Keymap layer copies
 keymap-layer0 copy.svg
 keymap-layer1 copy1.svg
+
+# Backup and temporary editor files
+*~
+*.swp
+*.swo
+.*.swp
+.*.swo
+*#
+.#*
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux specific
+.directory
+.Trash-*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# CMake and build system
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Zephyr/West specific
+.west/
+.zephyr/
+zephyr-env.sh
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Test and coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Misc
+*.orig
+*.rej
+.DS_Store

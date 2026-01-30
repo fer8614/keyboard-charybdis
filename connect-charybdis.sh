@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# V&Z-Charybdis Bluetooth Connection Script
+# Charybdis Bluetooth Connection Script
 # Replace MAC address with your keyboard's MAC address
 
 MAC="DF:1F:E0:ED:35:2C"
 
 echo "╔══════════════════════════════════════════════════════════╗"
-echo "║     V&Z-Charybdis Bluetooth Connection Script            ║"
+echo "║     Charybdis Bluetooth Connection Script                ║"
 echo "╚══════════════════════════════════════════════════════════╝"
 echo ""
 echo "IMPORTANT: Before continuing, do this on the keyboard:"

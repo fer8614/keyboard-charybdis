@@ -1,29 +1,29 @@
 #!/bin/bash
 
-# Script para compilar el firmware del Charybdis con SDK de Zephyr
+# Script to compile Charybdis firmware with Zephyr SDK
 
 export ZEPHYR_SDK_INSTALL_DIR=/tmp/zephyr-sdk-0.16.8
 
-cd /home/yfcepeda/Documentos/AI/KEYBOARD
+cd /home/yfcepeda/Documentos/AI/keyboard-charybdis
 
-echo "Limpiando compilaciones anteriores..."
+echo "Cleaning previous builds..."
 rm -rf build
 
-echo "Exportando configuración de Zephyr..."
+echo "Exporting Zephyr configuration..."
 west zephyr-export
 
-echo "Compilando firmware..."
+echo "Compiling firmware..."
 west build -b nice_nano_v2 -s zmk/app -d build/charybdis -- \
-    -DZMK_CONFIG=/home/yfcepeda/Documentos/AI/KEYBOARD/config \
+    -DZMK_CONFIG=/home/yfcepeda/Documentos/AI/keyboard-charybdis/config \
     -DSHIELD=charybdis_left
 
 if [ -f "build/charybdis/zephyr/zmk.uf2" ]; then
     echo ""
-    echo "✓ ¡Compilación exitosa!"
-    echo "Archivo: build/charybdis/zephyr/zmk.uf2"
+    echo "✓ Compilation successful!"
+    echo "File: build/charybdis/zephyr/zmk.uf2"
     ls -lh build/charybdis/zephyr/zmk.uf2
 else
     echo ""
-    echo "✗ Error: No se generó el archivo zmk.uf2"
+    echo "✗ Error: zmk.uf2 file was not generated"
     exit 1
 fi
